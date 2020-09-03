@@ -1,0 +1,37 @@
+.message--theirs .message__bubble {
+    background: #6363bf;
+    color: white;
+}
+
+.message--mine .message__bubble {
+    background: rgba(156, 172, 172, 0.2);
+}
+
+.message--mine {
+    align-items: flex-end;
+}
+
+.message--theirs {
+    align-items: flex-start;
+}
+
+.messages {
+    flex-grow: 1;
+    padding: 20px 30px;
+    overflow: auto;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    border-radius: 3px;
+    height: 100vh;
+    max-height: 600px;
+    width: 200vw;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NearByApi</string>
+    <string name="tv_connection">Connection Status</string>
+    <string name="wifi">Wifi On/Off</string>
+    <string name="discover">Discover</string>
+    <string name="btn_send">Send</string>
+    <string name="messages">Messages</string>
+</resources>

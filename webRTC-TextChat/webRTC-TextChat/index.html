@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Hello Testing</title>
+    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Hello Bro</h1>
+    <div class="content">
+        <div class="messages">
+
+        </div>
+        <form class="footer" onsubmit="return false;">
+            <input type="text" placeholder="Your message..">
+            <input type="file">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <template data-template="message">
+    <div class="message">
+      <div class="message__name"></div>
+      <div class="message__bubble"></div>
+      <a class="download__file"></a>
+    </div>
+  </template>
+
+</body>
+<script src="main.js"></script>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
+    <title>VideoChat</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="localVideo">
+            <div class="header-title">Local</div>
+            <video id="localVideo" height="50px" autoplay></video>
+        </div>
+        <div class="remoteVideo">
+            <div class="header-title">Remote</div>
+            <video id="remoteVideo" autoplay></video>
+        </div>
+        <div class="notificationsBox">
+            <div class="header-title">Notifications</div>
+            <textarea readonly id="notificationsBox"></textarea>
+        </div>
+        <div class="chatBox">
+            <div class="header-title">Chat Box</div>
+            <textarea readonly id="chatBox"></textarea>
+            <input type="text" id="chat_text_input" placeholder="Send a message.." />
+            <button id="sendMsgBtn" onclick="sendChatMessage()">Send</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
